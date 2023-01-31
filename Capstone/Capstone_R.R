@@ -4,9 +4,9 @@ library(dplyr)
 library(RColorBrewer)
 library(awtools)
 
-SLD <- read_csv("C:\\Users\\emmap\\Desktop\\Education & Training\\Coursera\\DataAnalytics\\Capstone\\Smart_Location_Database_.csv")
+SLD <- read_csv("..\\Smart_Location_Database_.csv")
 # https://www.epa.gov/smartgrowth/smart-location-mapping#SLD
-HD <- read_csv("C:\\Users\\emmap\\Desktop\\Education & Training\\Coursera\\DataAnalytics\\Capstone\\PLACES__Local_Data_for_Better_Health__County_Data_2022_release.csv")
+HD <- read_csv("..\\PLACES__Local_Data_for_Better_Health__County_Data_2022_release.csv")
 # https://chronicdata.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-County-Data-20/swc5-untb
 
 View(SLD)
